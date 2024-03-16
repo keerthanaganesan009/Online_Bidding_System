@@ -1,0 +1,75 @@
+.catproduct label {
+  margin-left: 35%; /* Adjust the left margin of labels */
+  font-size: 20px; /* Set the font size of labels */
+}
+
+.catproduct h1 {
+  text-align: center; /* Center-align the heading */
+  margin-bottom: 20px; /* Add margin at the bottom of the heading */
+}
+
+.catproduct {
+  text-transform: capitalize; /* Capitalize the text */
+}
+
+.catproduct select {
+  border-radius: 7px; /* Add border radius to selects */
+  padding: 5px; /* Add padding to selects */
+  margin-left: 1%; /* Adjust the left margin of selects */
+}
+
+.catproduct button {
+  margin-left: 20px; /* Adjust the left margin of buttons */
+}
+
+.bid-container {
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Set flex direction to column */
+  gap: 45px; /* Set gap between flex items */
+  margin-left: 8%; /* Adjust the left margin of the container */
+}
+
+.bid-item {
+  display: flex; /* Display as flex container */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Set gap between flex items */
+}
+
+.image-container {
+  width: 200px; /* Set width of image container */
+  height: 200px; /* Set height of image container */
+  overflow: hidden; /* Hide overflowing content */
+  flex-shrink: 0; /* Prevent shrinking of image container */
+}
+
+.image-container img {
+  width: 100%; /* Set width of images to 100% */
+  height: auto; /* Set height to auto to maintain aspect ratio */
+}
+
+.details-container {
+  flex-grow: 1; /* Allow details container to grow */
+  text-transform: capitalize; /* Capitalize text in details container */
+  margin-left: 25%; /* Adjust the left margin of details container */
+}
+
+.details-container p {
+  margin: 0; /* Remove default margin */
+  margin-bottom: 11px; /* Add margin at the bottom of paragraphs */
+}
+
+.bold {
+  font-weight: bold; /* Set font weight to bold */
+}
+
+.bid-input {
+  order: -1; /* Change order to display input before other elements */
+  width: 18%; /* Set width of input */
+  padding: 8px; /* Add padding to input */
+  margin-bottom: 8px; /* Add margin at the bottom of input */
+  text-align: right; /* Right-align text in input */
+  border-radius: 8px; /* Add border radius to input */
+  margin-left: 2rem; /* Adjust the left margin of input */
+}
+
+/* Additional styles can be added here */

@@ -1,0 +1,29 @@
+.leftcolumn {
+    float: left; /* Float the left column to the left */
+    width: 75%; /* Set the width of the left column */
+    align-items: center; /* Align items in the left column vertically */
+    background-color: yellow; /* Background color of the left column */
+    height: 500px; /* Set the height of the left column */
+}
+
+.rightcolumn {
+    float: left; /* Float the right column to the left */
+    width: 25%; /* Set the width of the right column */
+    background-color: #f1f1f1; /* Background color of the right column */
+    padding-left: 10px; /* Add padding to the left of the right column */
+    background-color: rgb(5, 171, 121); /* Background color of the right column (overriding the previous one) */
+    color: white; /* Text color of the right column */
+    height: 500px; /* Set the height of the right column */
+}
+
+.row::after {
+    content: ""; /* Clearfix hack to clear floats */
+    display: table; /* Display as a table */
+    clear: both; /* Clear floats */
+}
+
+* {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Additional styles can be added here */

@@ -1,0 +1,53 @@
+/* Apply styles to the unordered list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(126, 115, 237); /* Background color of the navigation bar */
+    margin-bottom: 3%; /* Margin at the bottom of the navigation bar */
+}
+
+/* Apply styles to list items */
+li {
+    float: left; /* Float the list items to create a horizontal layout */
+}
+
+/* Apply styles to links within list items */
+li a {
+    display: block;
+    color: rgb(15, 15, 15); /* Text color of the links */
+    text-align: center; /* Center-align the text within the links */
+    padding: 14px 16px; /* Padding around the link text */
+    text-decoration: none; /* Remove default underline from links */
+}
+
+/* Apply hover styles to links */
+li a:hover {
+    background-color: rgb(255, 255, 255); /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+
+/* Apply styles to the logo or brand text */
+.logo {
+    font-size: 24px; /* Adjust the font size of the logo */
+    font-weight: bold; /* Make the logo text bold */
+    padding: 0 20px; /* Add padding to the logo to separate it from other links */
+}
+
+/* Apply styles to a specific link, such as a button */
+.btn {
+    background-color: rgb(254, 171, 25); /* Background color of the button */
+    color: white; /* Text color of the button */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding around the button text */
+    text-align: center; /* Center-align the button text */
+    text-decoration: none; /* Remove default underline from the button */
+    display: inline-block; /* Ensure the button behaves like an inline element */
+    margin-top: 10px; /* Add margin at the top of the button */
+}
+
+/* Apply hover styles to the button */
+.btn:hover {
+    background-color: rgb(255, 190, 45); /* Background color on hover */
+}

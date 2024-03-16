@@ -1,0 +1,19 @@
+.foot {
+    background-color: black; /* Background color of the footer */
+    color: aliceblue; /* Text color of the footer */
+    text-align: center; /* Center-align the text within the footer */
+    padding: 20px 0; /* Padding at the top and bottom of the footer */
+    position: fixed; /* Fixed positioning to keep the footer at the bottom of the viewport */
+    left: 0; /* Align the footer to the left */
+    bottom: 0; /* Align the footer to the bottom */
+    width: 100%; /* Full width of the viewport */
+}
+
+.foot a {
+    color: aliceblue; /* Text color of links within the footer */
+    text-decoration: none; /* Remove default underline from links */
+}
+
+.foot a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

@@ -1,0 +1,30 @@
+.ef {
+    padding-left: 100px; /* Add padding to the left of the element */
+    margin: auto; /* Center the element horizontally */
+    width: 600px; /* Set a fixed width for the element */
+    margin-top: 100px !important; /* Add margin to the top of the element with higher priority */
+    border: 2px solid #ee8b01; /* Add a solid border to the element */
+}
+
+.pad {
+    padding: 10px; /* Add padding to all sides of the element */
+}
+
+span {
+    float: left; /* Float the span element to the left */
+    width: 11em; /* Set a fixed width for the span element */
+    text-align: right; /* Right-align the text within the span element */
+}
+
+fieldset {
+    margin-bottom: 1em; /* Add margin at the bottom of the fieldset */
+}
+
+input:focus {
+    border: 2px solid #4c0129; /* Change the border color when input is focused */
+}
+
+.btdiv {
+    margin-top: 20px; /* Add margin to the top of the element */
+    margin-left: 200px; /* Add margin to the left of the element */
+}
